@@ -1,0 +1,6 @@
+<h1>Practice</h1>
+<div ng-controller="myFirstController">
+    <input type="text" ng-model="name" ng-init="name='Naufal';nameLenght=6" ng-keyup="displayLength()">
+    <h4>Name: {{ name | uppercase }}</h4>
+    <h4>This length: {{ nameLenght }}</h4>
+</div>

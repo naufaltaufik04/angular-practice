@@ -1,0 +1,61 @@
+body {
+    padding: 20px;
+}
+
+.activity .type,
+.activity .duration,
+.activity .date {
+    margin-bottom: 10px;
+}
+
+.activity label {
+    font-size: 15px;
+}
+
+.activity select {
+    margin: 10px 0px 0px 20px;
+    font-size: 12px;
+    width: 180px;
+}
+
+.activity input {
+    margin-left: 20px;
+    height: 30px;
+    width: 180px;
+}
+
+.activity .date input {
+    margin-left: 60px;
+}
+
+.activity .date .ended-at{
+    margin-left: 20px;
+}
+
+.activity .date .ended-at input{
+    margin-left: 20px;
+}
+
+.activity button {
+    font-size: 14px;
+    height: 35px;
+}
+
+.activity .data {
+    margin-top: 15px;
+}
+
+.activity thead {
+    text-align: center;
+}
+
+.activity tbody a {
+    font-size: 14px;
+}
+
+.activity-form input,
+.activity-form select,
+.activity-form textarea {
+    width: 200px;
+    margin-bottom: 10px;
+}
